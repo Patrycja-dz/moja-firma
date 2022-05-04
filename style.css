@@ -20,3 +20,70 @@ html{
 body{
     font-family: 'Roboto', sans-serif;;
 }
+.container{
+    width: 96rem;
+    max-width: 100%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.hero{
+    background-color: var(--nav-footer-bg-color);
+    min-height: 10vh;
+ 
+}
+.hero__navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: min(5vh, 3rem) 2rem;
+}
+.hero__row{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.hero__link a{
+    color: var(--light-bg-color);
+    text-decoration: none;
+    font-weight: var(--light-text);
+}
+.hero__logo{
+    color: var(--secondary-text-color);
+    font-size: 1.8rem;
+    flex: 1 1 40rem;
+}
+.site-baner{
+    min-height: 90vh;
+    background-image: url("assets/dan-otis-OYFHT4X5isg-unsplash.jpg");
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-text-color);
+    
+
+}
+.site__shadow{
+    background: rgba(0, 0, 0, 0.15);
+}
+.site__btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: .5rem 3.5rem;
+    border: .3rem solid var(--secondary-text-color);
+    color: var(--secondary-text-color);
+    font-weight: var(--bold-text);
+    margin: min(4vh, 1rem) 2rem;
+}
+
+.site__primaryTitle{
+    font-size: 3.6rem;
+    font-size: clamp(2rem, 50%, 4rem);
+    margin: min(5vh, 3rem) 2rem;
+}
+.site__description{
+    margin: min(5vh, 1rem) 2rem;
+}
