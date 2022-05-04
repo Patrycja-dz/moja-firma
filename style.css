@@ -1,0 +1,16 @@
+:root{
+    --nav-footer-bg-color: #4E4E4E;
+    --light-bg-color:#F1F1F1;
+    --dark-bg-color:#405D78;
+    --primary-text-color:#000000;
+    --secondary-text-color:#FFFFFF;
+    --dot-bg-color:#E07A64;
+    --bold-text:700;
+    --light-text:400;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;;
+}
