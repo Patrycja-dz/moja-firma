@@ -59,7 +59,7 @@ body {
     font-size: 1.8rem;
 }
 
-.hero__row:last-child a {
+.hero__link:last-child a {
     cursor: not-allowed;
 }
 
@@ -204,7 +204,7 @@ body {
     font-size: 2rem;
     color: var(--primary-text-color);
     margin: 2rem;
-    padding: 5rem 0;
+    padding: 3rem 0;
     transition: all 0.5s ease-in-out;
 }
 
