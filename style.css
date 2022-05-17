@@ -31,7 +31,7 @@ body {
     width: 960px;
     max-width: 100%;
     margin: 0 auto;
-    padding-left: 2rem;
+   padding-left: 2rem;
 }
 
 .hero {
@@ -107,8 +107,8 @@ body {
 .site__workersPhoto {
     display: block;
     flex: 1 1 1;
-    width: 15rem;
-    height: 15rem;
+    width: 19.7rem;
+    height: 19.7rem;
     border-radius: 50%;
     background-image: url("assets/julian-wan-WNoLnJo7tS8-unsplash.jpg");
     background-size: cover;
@@ -127,6 +127,8 @@ body {
     /* margin-left: 2rem; */
     /* font-size: clamp(2rem, 50%, 4rem); */
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .site__title--light {
@@ -144,24 +146,28 @@ body {
 }
 
 .site__workerCaption {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin: min(5vh, 1rem) 2rem;
+    /* padding-right: 2rem;
+    margin-left: 2rem; */
+    /* margin: min(5vh, 1rem) 2rem; */
 }
 
 .site__workerCaption p {
-    width: clamp(45ch, 95%, 75ch);
+    width: clamp(37ch, 95%, 75ch);
     /* margin: min(5vh, 1rem) 0; */
     text-align: justify;
-
+   font-size: 16px;
 
 }
 
 .site__workerName {
     text-align: left;
+    font-size: 16px;
+    padding-bottom: 1rem;
 
 }
 
@@ -240,6 +246,7 @@ footer {
     font-weight: 400;
     text-align: center;
     margin-top: 1rem;
+    /* margin-right: 2rem; */
 }
 
 .footer__icons {
@@ -253,7 +260,7 @@ footer {
 .footer__icon {
     fill: var(--secondary-text-color);
     width: 3.1rem;
-    margin-left: 2rem;
+    margin-right: 1rem;
 }
 
 @media screen and (min-width:763px) {
